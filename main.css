@@ -1,0 +1,16 @@
+h2{
+    color: red;
+    font-size: 50px;
+}
+.titulo-body{
+    color: blueviolet;
+    font-size: 45px;
+}
+#titulo-section{
+    color: beige;
+}
+header{
+    background-color: rgb(33, 221, 64);
+    border-radius: 10px;
+
+}
