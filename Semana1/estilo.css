@@ -1,0 +1,57 @@
+body{
+    background-image: url(../newfile/imagen/EZENTIS.jpg);
+    background-size: cover;
+    background-color: hsl(222, 14, 20);
+  }
+.body{
+    letter-spacing: 2px;
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(220, 20, 130);
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 20px;
+.uno{
+    display: flex;
+    align-items: center;
+    
+}
+.uno img{
+    height: 90px;
+    border: 26px rgb(220, 247, 255);
+    border-radius: 40px;
+}
+ .a{
+  
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-style: oblique;
+    justify-self: flex-start;
+  }
+
+.articulo {
+    display: flex;
+    background-color: azure;
+    padding-left: 50px;
+    border-radius: 50px;
+    font-size: larger;
+    color: blue;
+    align-self: center;
+    flex-direction: column;
+}
+.h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    font-weight: 400;
+}
+.footer img{
+    margin-top: 50px;
+    border-radius: 40px;
+    width: 90px;
+    height: 90px;
+    display: table;
+}
+}
