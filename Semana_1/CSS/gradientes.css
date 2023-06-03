@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gradiente-uno{
+width: 300px;
+height: 200px;
+border:solid 2px;
+background: linear-gradient(360deg,blue,red,black,pink);
+}
+
+.gradiente-dos{
+    width: 300px;
+height: 200px;
+border:solid 2px;
+background: linear-gradient(to bottom,blue,red,black,pink);
+}
+
+.gradiente-tres{
+    color: blue;
+width: 300px;
+height: 200px;
+border:solid green 2px;
+background: linear-gradient(to right,rgb(255, 0, 140),rgb(179, 255, 0),black,rgb(192, 246, 255));
+}
+}
