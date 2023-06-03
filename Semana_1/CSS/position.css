@@ -3,8 +3,10 @@
     border:solid pink 5px;
     width: 30%;
     height: 50%;
-    left: 200px;
     position: relative;
+    left: 300px;
+    top: 300px;
+    
 }
 
 .cuadrado{
@@ -13,7 +15,7 @@
     background-color: black;
     margin-bottom: 10px;
     position: relative;
-    left: 100px;
+    left: 700px;
     top: 100px;
 }
 
@@ -22,4 +24,7 @@
     height: 100px;
     background-color: rgb(219, 24, 24);
     border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    left: 500px;
 }

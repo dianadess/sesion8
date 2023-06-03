@@ -1,0 +1,58 @@
+
+.body{
+    align-items: center;
+    justify-content: center;
+} 
+.header{
+    align-items: center;
+    margin: 20px;
+    font-weight: bolder;
+} 
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    height: 50%;
+    text-align: center;
+}
+.titulo1{
+color:blue;
+      margin: 8px;
+}
+.titulo2{
+    margin: 8px;
+    color:rgb(236, 43, 149);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.figura{
+    display: flex;
+    justify-content:space-around;
+}
+.figura img{
+    display: flex;
+    height: 258px;
+    width: 250px;
+}
+.portafolio{
+    color: rgb(238, 238, 25);
+    font-weight: 600;
+    margin: 8px;
+}
+.nav{
+    font-weight: bolder;
+}
+.uno{
+    color: brown;
+    padding: 8px;
+    
+}
+.dos{
+    color: blue;
+    padding: 8px;
+}
+.tres{
+    color: coral;
+    padding: 8px;
+}
+.cuatro{
+    color: aqua;
+    padding: 8px;
+}
