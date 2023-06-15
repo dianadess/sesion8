@@ -1,28 +1,40 @@
-h2{
-    color: red;
-    font-size: 50px;
-}
-.titulo-body{
-    color: blueviolet;
-    font-size: 45px;
-    
-}
-#titulo-section{
-    color: beige;
-}
-header{
-    background-color: rgb(221, 33, 221);
-    border-radius: 10px;
-    
-        font: size 100px; ;
-    }
 
+
+.titulo-body{
+    color: rgb(17, 11, 24);
+    font-size: 15px;
+    background-color: aqua;
+    background-image: url(./Semana_1/CSS/imagenes/f6.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top-left-radius: 50px;
 }
-h1{
-   background-color: rgb(11, 29, 23);
-   color: blue;
-   font-size: large;
-   border-color: beige;
-   
-   
+.header{
+       border-radius: 10px;
+    border: 5px solid white;
+    margin: 5px, 3px, 3px, 5px;          
+    }
+    .nav{
+    padding: 5px; 
+    margin: 5px;   
+        
+    }
+.section{
+    border: 5px solid orange;
+    padding-top: 180px;
+    padding-left: 150px;
+    padding-bottom: 130px;
+    margin-top: 120px;
+    font-weight: 400px;
+}
+.diana{
+    font-weight: 400px;
+}
+.imagen{
+    height: 120px;
+    border-radius: 8rem;
+    border: 5px solid rgb(25, 146, 140);
+    padding: 2px;
 }
