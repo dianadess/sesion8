@@ -1,21 +1,26 @@
+body{
+    background-color: rgb(240, 227, 227);
+}
 .header{
     border: 2px solid orange;
     margin-right: auto;
     margin-left: auto;
     box-sizing: border-box;
-     
+    display: flex;
+    text-align: center; 
+    justify-content: space-around;
      
    }
 .nav{
     border: 2px solid blue;
-    display: flex;
-   
-    height:50px;
-
-   
+    margin-left: 60%;
+    padding: 5px 10px 30px 60px;
+    height: 60px; 
+    width: 180px;  
     
 }
 .banner{
+    color: beige;
     border: 2px solid yellowgreen;
     margin: 175px;
     margin-top: 5px;
@@ -23,6 +28,8 @@
      height: 280px;
      box-sizing: border-box;
      display: flex;
+    background-image: url(./Semana_1/CSS/imagenes/f4.jpeg);
+    background-size: 198px;
 }
 .img-profile{
     margin: 10px;
@@ -46,17 +53,52 @@
     box-sizing: border-box;
 }
 .card{
-    display: flex;
+   display: flex; 
 }
 .card div img{
-    width: 25px;
-    height: 18px;
+    width: 250px;
+    height: 180px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 10px; 
+}
+.card div img :hover{
+    box-shadow: 5px 5px 5px 5px;
+    transition: 0.8s;
 }
 .text-works{
-        font-size: 2em;
+        font-size: 15px;
         margin-bottom: 30px;
         font-weight: bold;
         text-transform: uppercase;
+        border: 5px solid rgb(68, 63, 36);
+
+}
+.container-detail{
+    margin-left: 20px; 
+    text-align: center;
+    border: solid blue;
+    
+      
+}
+ .p {
+     border:solid;
+     padding: 20px;
+     padding-top: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 60px;
+    
+    
+ }
+   
+.link-portafolio h2 {
+    border: solid;
+    text-transform: uppercase;
+    padding-left: 20px;
+    background-color: red;
+
+    
+
+
 }
